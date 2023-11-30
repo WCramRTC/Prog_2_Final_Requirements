@@ -2,6 +2,54 @@
 
 ![Completed Application](Images/Complete.gif)
 
+You will be creating your own application that utilizes all the controls you been learning, and then utilizing lists and creating classes.
+
+You will also get an extra credit opportunity: Create your own classes related to your interest and add the needed functionality to work with.
+
+---
+
+# Programming Final Rubric
+
+# Programming Final Rubric
+
+Total Points: 300
+
+| **Task**                                  | **Points** | **Description**                                                                                      |
+|-------------------------------------------|------------|-------------------------------------------------------------------------------------------------------|
+| ***Section 1: Basic Requirements***         |            |                                                                                                       |
+| **Name on Application**                     | 20         | Student must include their name in a clearly visible part of the application.                         |
+| **Code Commenting**                        | 30         | Code must be well-commented, explaining the functionality and logic.                                  |
+| **Build and Run**                           | 50         | Application must build and run properly without errors upon submission.                               |
+| ***Section 2: Using Correct Controls***   |            |                                                                                                       |
+| **Display Information**                     |            |                                                                                                       |
+|   - ListView                              | 15         | Implement ListView with a Selection Changed Event to display formatted information in RichTextBox.    |
+|   - RichTextBox                           | 10         | Correctly implement a RichTextBox to display information.                                             |
+| **Choose or Add a Category**                |            |                                                                                                       |
+|   - ComboBox                              | 15         | Implement ComboBox with Selected Index Change Event to display category information in ListView.      |
+|   - Label, TextBox, Button                | 15         | Correct use of Label, TextBox, and Button for adding a category.                                      |
+| **Add Information To Category**             |            |                                                                                                       |
+|   - Label: Add Item                       | 5          | Implement a label to indicate the function to add an item.                                            |
+|   - TextBox: To Add Item                  | 5          | Use a TextBox for inputting an item to add.                                                           |
+|   - Label: Add Description                | 5          | Implement a label to indicate where to add a description.                                             |
+|   - RichTextBox: To write a description   | 10         | Use a RichTextBox for writing a detailed description.                                                 |
+|   - Checkbox: High Priority               | 5          | Include a checkbox to mark an item as high priority.                                                  |
+|   - Checkbox: Time Sensitive              | 5          | Include a checkbox to mark an item as time sensitive.                                                 |
+|   - Button: To Add Item to Selected Category | 5      | Implement a button to add the item to the selected category.                                          |
+| **Update Information**                      |            |                                                                                                       |
+|   - Button: To update selected item       | 10         | Implement a Button to update selected items.                                                          |
+| **Clear Boxes**                             |            |                                                                                                       |
+|   - Button: Clears boxes and resets buttons | 10      | Implement a Button that clears text boxes, rich text boxes, check boxes, and resets radio buttons.    |
+| **Is Completed**                            |            |                                                                                                       |
+|   - Radio Button: Is Completed            | 5          | Implement and correctly function a 'Is Completed' radio button.                                       |
+|   - Radio Button: Not Completed           | 5          | Implement and correctly function a 'Not Completed' radio button.                                      |
+| **Section 3: Class Construction**         |            |                                                                                                       |
+| - Class Design                            | 30         | Classes must be properly designed and relevant to the application's functionality.                    |
+| - Class Implementation                    | 40         | Proper implementation of classes including methods, properties, and constructors.                     |
+| - Class Integration                       | 30         | Classes must be integrated correctly and work seamlessly within the application.                      |
+
+---
+
+
 ## Knowledge Need
 
 All Controls
