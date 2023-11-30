@@ -1,4 +1,4 @@
-# Prog_2_FinalReview
+# Prog_2_Final
 
 ![Completed Application](Images/Complete.gif)
 
@@ -8,11 +8,6 @@ You will also get an extra credit opportunity: Create your own classes related t
 
 ---
 
-# Programming Final Rubric
-
-# Programming Final Rubric
-
-# Programming Final Rubric
 
 Total Points: 300
 
