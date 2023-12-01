@@ -14,6 +14,13 @@ namespace Prog_2_Final_Requirements
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+    // Section 1 : Name Example
+    // William Cram
+    // 11.30.23
+    // Programming 2 Final
+
     public partial class MainWindow : Window
     {
         public MainWindow()

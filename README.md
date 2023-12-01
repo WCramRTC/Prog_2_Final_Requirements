@@ -112,6 +112,10 @@ Total Points: 300
 ---
 ## Layout
 
+Add Name Example
+
+![Name Example](Images/Name_Example.png)
+
 ![Layout](Images/Layout.png)
 
 - Category change box
