@@ -13,40 +13,42 @@ Total Points: 300
 
 | **Task**                                  | **Points** | **Description**                                                                                         |
 |-------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|
-| **Section 1: Basic Requirements**         |            |                                                                                                          |
-| - Name on Application                     | 20         | Student must include their name in a clearly visible part of the application.                            |
-| - Code Commenting                         | 30         | Code must be well-commented, explaining the functionality and logic.                                     |
-| - Build and Run                           | 50         | Application must build and run properly without errors upon submission.                                  |
-| **Section 2: Using Correct Controls**     |            |                                                                                                          |
-| - Display Information                     |            |                                                                                                          |
+| ***Section 1: Basic Requirements***         |            |                                                                                                          |
+| **Name on Application**                     | 20         | Student must include their name in a clearly visible part of the application.                            |
+| **Code Commenting**                         | 30         | Code must be well-commented, explaining the functionality and logic.                                     |
+| **Build and Run**                           | 50         | Application must build and run properly without errors upon submission.                                  |
+| | | |
+| ***Section 2: Using Correct Controls***     |            |                                                                                                          |
+| **Display Information**                     |            |                                                                                                          |
 |   - ListView                              | 15         | Implement ListView with a Selection Changed Event to display formatted information in RichTextBox.       |
 |   - RichTextBox                           | 10         | Correctly implement a RichTextBox to display information.                                                |
-| - Choose or Add a Category                |            |                                                                                                          |
+| **Choose or Add a Category**                |            |                                                                                                          |
 |   - ComboBox                              | 15         | Implement ComboBox with Selected Index Change Event to display category information in ListView.         |
 |   - Label, TextBox, Button                | 15         | Correct use of Label, TextBox, and Button for adding a category.                                         |
-| - Add Information To Category             |            |                                                                                                          |
+| **Add Information To Category**             |            |                                                                                                          |
 |   - Label: Add Item                       | 5          | Implement a label to indicate the function to add an item.                                               |
 |   - TextBox: To Add Item                  | 5          | Use a TextBox for inputting an item to add.                                                              |
 |   - Label: Add Description                | 5          | Implement a label to indicate where to add a description.                                                |
 |   - RichTextBox: To write a description   | 10         | Use a RichTextBox for writing a detailed description.                                                    |
-|   - Checkbox: High Priority               | 5          | Include a checkbox to mark an item as high priority.                                                     |
-|   - Checkbox: Time Sensitive              | 5          | Include a checkbox to mark an item as time sensitive.                                                    |
+|   - CheckBox: High Priority               | 5          | Include a CheckBox to mark an item as high priority.                                                     |
+|   - CheckBox: Time Sensitive              | 5          | Include a CheckBox to mark an item as time sensitive.                                                    |
 |   - Button: To Add Item to Selected Category | 5      | Implement a button to add the item to the selected category.                                             |
 | - Update Information                      |            |                                                                                                          |
 |   - Button: To update selected item       | 10         | Implement a Button to update selected items.                                                             |
-| - Clear Boxes                             |            |                                                                                                          |
+| **Clear Boxes**                             |            |                                                                                                          |
 |   - Button: Clears boxes and resets buttons | 10      | Implement a Button that clears text boxes, rich text boxes, check boxes, and resets radio buttons.       |
-| - Is Completed                            |            |                                                                                                          |
+| **Is Completed**                            |            |                                                                                                          |
 |   - Radio Button: Is Completed            | 5          | Implement and correctly function a 'Is Completed' radio button.                                          |
 |   - Radio Button: Not Completed           | 5          | Implement and correctly function a 'Not Completed' radio button.                                         |
-| **Section 3: Class Construction**         |            |                                                                                                          |
+| | | |
+| ***Section 3: Class Construction***         |            |                                                                                                          |
 | - Create 2 Classes                        |            |                                                                                                          |
-|   - Item.cs                               |            |                                                                                                          |
+|   **Item.cs**                               |            |                                                                                                          |
 |     - Fields (4-5)                        | 20         | Create 4 to 5 fields within the `Item` class, relevant to the application's functionality.               |
 |     - Constructor                         | 20         | Implement a constructor in `Item` class to initialize the fields.                                        |
 |     - Properties                          | 20         | Create properties for each field in the `Item` class for proper encapsulation.                           |
 |     - Method for Formatted String         | 20         | Develop a method in `Item` class that returns a formatted string for display in a RichTextBox.           |
-|   - Category.cs                           |            |                                                                                                          |
+|   **Category.cs**                           |            |                                                                                                          |
 |     - Fields                              | 10         | Create a string field for the category name and a List of `Item` objects in the `Category` class.        |
 |     - Constructor                         | 15         | Construct the `Category` class with a parameter for the name and instantiate the list within the constructor. |
 |     - Properties                          | 15         | Implement properties for the name and the List of `Item` objects in the `Category` class.                |
@@ -57,44 +59,55 @@ Total Points: 300
 
 ## Knowledge Need
 
-All Controls
-    - Give names to reference in your C# code
-    - Add events
-    - Change Text ( replace and append )
-    - Get values
+***All Controls***
 
-- TextBox
-- Label
-- Button
-- Rich Text Box ( Run specifically )
-    - Give run a name
-    - How to append text
-    - How to replace text
-- ListBox and ComboBox
-    - Items Source
-    - Selected Index
-    - On Selection Change event
-- Lists
-    - Create and initialize in local and global scope
-    - Add files
-    - Access individual elements
-- Classes
-    - Create classes in their own files
-    - Fields
-    - Constructors
-    - Properties
-    - Methods
-    - Object in objects
-    - How to override to strings
-    - Checking for null
-- CheckBox and RadioButton
-    - How to get and respond to the selected value
-- ListView
-    - Items Source
-        - Change source on load, and while application is running
-    - Selected Index
-        - Check if item is selected ( index != -1 )
-    - On Selection Change Event
+- Give names to reference in your C# code
+- Add events
+- Change Text ( replace and append )
+- Get values
+
+> ***[Message Box](https://github.com/WCramRTC/GA_1_WillCram)***
+> - Message Box
+
+> ***[Guided Assignment 2](https://github.com/WCramRTC/GA_2_WillCram)***
+> - TextBox
+> - Label
+> - Button
+
+> ***[Rich Text Box ( Run specifically )](https://github.com/WCramRTC/GA_Prog_2_RichTextBox)***
+>    - Give run a name
+>    - How to append text
+>    - How to replace text
+
+> ***[ListBox and ComboBox](https://github.com/WCramRTC/GA_Prog_2_ListAndComboBox)***
+>    - Items Source
+>    - Selected Index
+>    - On Selection Change event
+
+> ***[List](https://github.com/WCramRTC/GA_Prog_2_Lists)***
+>    - Create and initialize in local and global scope
+>    - Add files
+>    - Access individual elements
+
+> ***[Classes](https://github.com/WCramRTC/GA_Classes)***
+>    - Create classes in their own files
+>    - Fields
+>    - Constructors
+>    - Properties
+>    - Methods
+>    - Object in objects
+>    - How to override to strings
+>    - Checking for null
+
+> ***[CheckBox and Radio Buttons](https://github.com/WCramRTC/GA_Prog_2_CheckBoxRadioButton)***
+>    - How to get and respond to the selected value
+
+> ***[ListView](https://github.com/WCramRTC/GA_ListView)***
+>    - Items Source
+>        - Change source on load, and while application is running
+>    - Selected Index
+>        - Check if item is selected ( index != -1 )
+>    - On Selection Change Event
 
 ---
 ## Layout
@@ -102,9 +115,9 @@ All Controls
 ![Layout](Images/Layout.png)
 
 - Category change box
-    - Combobox to hold category names
+    - ComboBox to hold category names
         - Has an on selection changed event
-        - Displays todo items for category in listview
+        - Displays ToDo items for category in ListView
 - Add New Category
     - Label, TextBox, Button
 - Display ToDo Items
@@ -112,7 +125,7 @@ All Controls
         - Has a selection changed event
         - Selected item information displays on rich text box to the right and text box info below.
 - Task Name
-    - Label, Textbox
+    - Label, TextBox
 - Description Box
     - Label
     - Rich Text Box
@@ -212,8 +225,8 @@ Category represent a unique category item with it's own list of "To Do" items as
 
 ### - **Add Task ( Button Click Event )**
 - When clicked, creates a new Item instance and assigns it to the currently selected category
-- Validation: Requires name and description. If either are **Empty**, display a messagebox saying "Please enter name and description".
-- Refresh the listview. `listViewName.Items.Refresh();`
+- Validation: Requires name and description. If either are **Empty**, display a MessageBox saying "Please enter name and description".
+- Refresh the ListView. `listViewName.Items.Refresh();`
 
 ![Add Task Example](Images/Add_Task.gif)
 
@@ -221,18 +234,18 @@ Category represent a unique category item with it's own list of "To Do" items as
 
 - When clicked, the item selected in the list view is updated with the information located below.
 - If the Completed radio button is selected, the selected Items `assignmentCompleted()` method should be called.
-- Refresh the listview. `listViewName.Items.Refresh();`
+- Refresh the ListView. `listViewName.Items.Refresh();`
 
 ![Add Task Example](Images/Update_Task.gif)
 
 ### - **Clear Input Boxes ( Button Click Event )**
 
 - When clicked, all information is cleared from the boxes.
-    - The task textbox, description, and full display are set to "".
+    - The task TextBox, description, and full display are set to "".
     - The check boxes are set to false
     - The radio button, Not Completed, is selected
     - !! The selected index of the list view is set to -1.
-        > Setting the selected index to -1 deselects everything from the list view.
+        > Setting the selected index to -1 DeSelects everything from the list view.
 
 ![Add Task Example](Images/Clear.gif)
 
@@ -276,7 +289,7 @@ Call this in your MainWindow(). This will populate your categories list with 3 c
 ![Add Task Example](Images/SelectItem.gif)
 
 ### - **Change Category ( Selection Changed Event )**
-- When a new category is seleceted, the items in it's `_todoItemsInCategory` are displayed in the list view.
+- When a new category is selected, the items in it's `_todoItemsInCategory` are displayed in the list view.
 - This can be done by assigning the categories name to the list view .ItemsSource
 
 
